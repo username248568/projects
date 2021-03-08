@@ -1,10 +1,17 @@
 public class Person{
-	private String firstame;
+	private String firstname;
 	private String lastname;
-	public String getfirstname() {
-		return this.firstname
+	public String getFirstname() {
+		return firstname;
 	}
-	public String getlastname() {
-		return this.firstname()
-	}	
+	public void setFirstname(String firstname) {
+		this.firstname = firstname;
+	}
+	public String getLastname() {
+		return lastname;
+	}
+	public void setLastname(String lastname) {
+		this.lastname = lastname;
+	}
+
 }
