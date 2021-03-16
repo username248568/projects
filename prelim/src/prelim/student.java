@@ -28,5 +28,10 @@ public class student {
 		 public void setpoints(int points) {
 				this.points = points;
 			}
+		 public student(){
+			 id=9999;
+			 points=12;
+			 credhours=3;
+		 }
 		 
 }
