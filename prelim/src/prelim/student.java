@@ -19,6 +19,14 @@ public class student {
 		 public int getpoints() {
 				return points;
 			}
-		 
+		 public void setid(int id) {
+				this.id = id;
+			}
+		 public void setcredhours(int credhours) {
+				this.credhours = credhours;
+			}
+		 public void setpoints(int points) {
+				this.points = points;
+			}
 		 
 }
